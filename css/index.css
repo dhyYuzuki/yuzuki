@@ -1,0 +1,87 @@
+/* Conf Globais, VAR's and body */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+
+}
+
+body{
+    /* size */
+    width: 100vw;
+    height: 100vh;
+    /* color back */
+    background-color: azure;
+}
+
+/* header, main and footer */
+
+header,main,footer{
+    padding: 10px;
+}
+
+/* tags */
+a{
+    color: black;
+}
+
+nav{
+    /* padding and margin */
+    padding-bottom:2px;
+    /* diplay */
+    display: none;
+    /* text */
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    text-decoration: underline;
+}
+.nv:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4;
+    color: rgb(185, 185, 185);
+}
+
+div{
+    font-size: large;
+    color: black;
+    background-color: greenyellow;
+    padding: 4px;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+}
+div:hover{
+    width: 70px;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+div:hover  > nav{
+    width: 70px;
+    border-radius: 5px;
+    display: block;
+    transition-duration: 0.4s;
+    background-color: greenyellow;
+}
+div:not(:hover) > nav{
+    transition-duration: 0.4s;
+}
+/* Class and Id */
+
+
+
+.sec{
+    padding: 10px;
+}
+
+#creditss{
+    font-size: large;
+}
+
+#gokujoia{
+    border-radius: 15px;
+}
