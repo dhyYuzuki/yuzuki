@@ -5,9 +5,7 @@
     margin: 0px;
 }
 
-:root{
 
-}
 
 body{
     /* size */
@@ -21,16 +19,23 @@ body{
 
 header,main,footer{
     padding: 10px;
+    margin: auto;
 }
+header{
+    padding-left: 40px;
+}
+
 
 /* tags */
 a{
     color: black;
+    margin: 5px;
 }
 
 nav{
     /* padding and margin */
-    padding-bottom:2px;
+    margin:4px;
+    padding: 0px;
     /* diplay */
     display: none;
     /* text */
@@ -42,20 +47,26 @@ nav{
 .nv:hover{
     transform: scale(1.1);
     transition-duration: 0.4;
-    color: rgb(185, 185, 185);
+    color: rgb(54, 66, 90);
+    border-radius: 5px;
 }
 
 div{
-    font-size: large;
-    color: black;
-    background-color: greenyellow;
+    /* forma */ 
     padding: 4px;
     border-radius: 5px;
     width: 60px;
-    text-align: center;
+     background-color: #83adc5;
+    /*text*/
+    font-size: large;
+    color: black;
+     text-align: center;
+   
+  
+   
 }
 div:hover{
-    width: 70px;
+    width: 600px;
     border-radius: 5px;
     transform: scale(1.1);
     transition-duration: 0.4s;
@@ -63,25 +74,61 @@ div:hover{
 div:hover  > nav{
     width: 70px;
     border-radius: 5px;
-    display: block;
+    display: inline-flex;
     transition-duration: 0.4s;
-    background-color: greenyellow;
 }
 div:not(:hover) > nav{
     transition-duration: 0.4s;
 }
+/* paragrafos e imagens */
+p{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+/* section */
+section{
+    border-radius: 5px;
+    background-color: #83adc5;
+    text-align: center;
+}
+/* legend */
+legend{
+    font-size: large;
+}
 /* Class and Id */
 
 
-
+/*sections class*/
 .sec{
     padding: 10px;
+    margin: auto;
 }
-
+/* creditos footer */
 #creditss{
-    font-size: large;
+    font-size: 2em;
 }
 
-#gokujoia{
+/* seção noticias  */
+#not{
+    text-align: center;
     border-radius: 15px;
+}
+#linknot{
+    border-radius: 0px 0px 0px 0px;
+}
+#nott{
+    border-radius: 5px 5px 0px 0px;
+}
+#gsemsec{
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 20px;
+}
+/* gif da semana */
+#gsem{
+    width: 350px;
+    border-radius:5px;
 }
