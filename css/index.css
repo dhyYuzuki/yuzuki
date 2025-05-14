@@ -42,7 +42,7 @@ nav{
     text-align: center;
     font-size: 1em;
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .nv:hover{
     transform: scale(1.1);
