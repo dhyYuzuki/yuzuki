@@ -82,6 +82,7 @@ div:hover  > nav{
 div:not(:hover) > nav{
     transition-duration: 0.4s;
 }
+
 /* paragrafos e imagens */
 p{
     text-align: center;
@@ -115,15 +116,15 @@ legend{
 }
 
 /* seção noticias  */
-#not{
+#fila1{
     text-align: center;
-    border-radius: 15px;
+    border-radius: 5px 5px 0px 0px;
 }
-#linknot{
+#fila2{
     border-radius: 0px 0px 0px 0px;
 }
-#nott{
-    border-radius: 5px 5px 0px 0px;
+#fila3{
+    border-radius: 0px 0px 5px 5px;
 }
 #gsemsec{
     border-radius: 0px 0px 5px 5px;
